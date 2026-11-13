@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "data_version": "sample-1",
+    "as_of": 20,
+    "horizon": 10,
+    "reporting_lag": 2
+  },
+  "collections": {
+    "shipments": [
+      {
+        "id": "s1",
+        "revision": 1,
+        "batch_group": "g1",
+        "market": "m1",
+        "shipped": 0,
+        "features": {
+          "distance": 2
+        },
+        "feature_known": 0
+      },
+      {
+        "id": "s2",
+        "revision": 1,
+        "batch_group": "g2",
+        "market": "m1",
+        "shipped": 15,
+        "features": {
+          "distance": 3
+        },
+        "feature_known": 15
+      }
+    ],
+    "completions": [
+      {
+        "id": "c1",
+        "revision": 1,
+        "shipment": "s1",
+        "completed": 4,
+        "known": 5
+      }
+    ]
+  }
+}
