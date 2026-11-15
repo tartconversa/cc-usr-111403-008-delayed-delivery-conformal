@@ -1,0 +1,3148 @@
+{
+ "schema_version": 1,
+ "metadata": {
+  "data_version": "synthetic-2-w3",
+  "as_of": 160,
+  "horizon": 12,
+  "reporting_lag": 3
+ },
+ "collections": {
+  "shipments": [
+   {
+    "id": "s001",
+    "revision": 1,
+    "batch_group": "g00",
+    "market": "m1",
+    "shipped": 115,
+    "features": {
+     "distance": 15.85,
+     "weight": 5.28
+    },
+    "feature_known": 115
+   },
+   {
+    "id": "s002",
+    "revision": 1,
+    "batch_group": "g01",
+    "market": "m3",
+    "shipped": 130,
+    "features": {
+     "distance": 15.68,
+     "weight": 1.95
+    },
+    "feature_known": 130
+   },
+   {
+    "id": "s003",
+    "revision": 1,
+    "batch_group": "g01",
+    "market": "m3",
+    "shipped": 132,
+    "features": {
+     "distance": 12.08,
+     "weight": 4.96
+    },
+    "feature_known": 132
+   },
+   {
+    "id": "s004",
+    "revision": 1,
+    "batch_group": "g01",
+    "market": "m3",
+    "shipped": 134,
+    "features": {
+     "distance": 4.27,
+     "weight": 3.69
+    },
+    "feature_known": 134
+   },
+   {
+    "id": "s005",
+    "revision": 1,
+    "batch_group": "g02",
+    "market": "m1",
+    "shipped": 101,
+    "features": {
+     "distance": 17.44,
+     "weight": 4.27
+    },
+    "feature_known": 101
+   },
+   {
+    "id": "s006",
+    "revision": 1,
+    "batch_group": "g02",
+    "market": "m1",
+    "shipped": 103,
+    "features": {
+     "distance": 11.97,
+     "weight": 5.16
+    },
+    "feature_known": 103
+   },
+   {
+    "id": "s007",
+    "revision": 1,
+    "batch_group": "g02",
+    "market": "m1",
+    "shipped": 105,
+    "features": {
+     "distance": 5.04,
+     "weight": 2.21
+    },
+    "feature_known": 105
+   },
+   {
+    "id": "s008",
+    "revision": 1,
+    "batch_group": "g03",
+    "market": "m3",
+    "shipped": 83,
+    "features": {
+     "distance": 9.05,
+     "weight": 5.21
+    },
+    "feature_known": 83
+   },
+   {
+    "id": "s009",
+    "revision": 1,
+    "batch_group": "g03",
+    "market": "m3",
+    "shipped": 85,
+    "features": {
+     "distance": 10.0,
+     "weight": 4.31
+    },
+    "feature_known": 85
+   },
+   {
+    "id": "s010",
+    "revision": 1,
+    "batch_group": "g03",
+    "market": "m3",
+    "shipped": 87,
+    "features": {
+     "distance": 8.51,
+     "weight": 3.76
+    },
+    "feature_known": 87
+   },
+   {
+    "id": "s011",
+    "revision": 1,
+    "batch_group": "g04",
+    "market": "m1",
+    "shipped": 65,
+    "features": {
+     "distance": 7.04,
+     "weight": 2.15
+    },
+    "feature_known": 65
+   },
+   {
+    "id": "s012",
+    "revision": 1,
+    "batch_group": "g04",
+    "market": "m1",
+    "shipped": 67,
+    "features": {
+     "distance": 11.01,
+     "weight": 1.54
+    },
+    "feature_known": 67
+   },
+   {
+    "id": "s013",
+    "revision": 1,
+    "batch_group": "g04",
+    "market": "m1",
+    "shipped": 69,
+    "features": {
+     "distance": 8.18,
+     "weight": 5.79
+    },
+    "feature_known": 69
+   },
+   {
+    "id": "s014",
+    "revision": 1,
+    "batch_group": "g05",
+    "market": "m3",
+    "shipped": 54,
+    "features": {
+     "distance": 5.36,
+     "weight": 5.55
+    },
+    "feature_known": 54
+   },
+   {
+    "id": "s015",
+    "revision": 1,
+    "batch_group": "g05",
+    "market": "m3",
+    "shipped": 56,
+    "features": {
+     "distance": 8.72,
+     "weight": 3.83
+    },
+    "feature_known": 56
+   },
+   {
+    "id": "s016",
+    "revision": 1,
+    "batch_group": "g05",
+    "market": "m3",
+    "shipped": 58,
+    "features": {
+     "distance": 7.39,
+     "weight": 2.56
+    },
+    "feature_known": 58
+   },
+   {
+    "id": "s017",
+    "revision": 1,
+    "batch_group": "g06",
+    "market": "m1",
+    "shipped": 30,
+    "features": {
+     "distance": 4.15,
+     "weight": 4.54
+    },
+    "feature_known": 30
+   },
+   {
+    "id": "s018",
+    "revision": 1,
+    "batch_group": "g07",
+    "market": "m2",
+    "shipped": 124,
+    "features": {
+     "distance": 4.84,
+     "weight": 3.8
+    },
+    "feature_known": 124
+   },
+   {
+    "id": "s019",
+    "revision": 1,
+    "batch_group": "g07",
+    "market": "m2",
+    "shipped": 126,
+    "features": {
+     "distance": 17.76,
+     "weight": 4.85
+    },
+    "feature_known": 126
+   },
+   {
+    "id": "s020",
+    "revision": 1,
+    "batch_group": "g07",
+    "market": "m2",
+    "shipped": 128,
+    "features": {
+     "distance": 3.86,
+     "weight": 3.1
+    },
+    "feature_known": 128
+   },
+   {
+    "id": "s021",
+    "revision": 1,
+    "batch_group": "g08",
+    "market": "m1",
+    "shipped": 77,
+    "features": {
+     "distance": 17.97,
+     "weight": 1.1
+    },
+    "feature_known": 77
+   },
+   {
+    "id": "s022",
+    "revision": 1,
+    "batch_group": "g08",
+    "market": "m1",
+    "shipped": 79,
+    "features": {
+     "distance": 2.67,
+     "weight": 1.73
+    },
+    "feature_known": 79
+   },
+   {
+    "id": "s023",
+    "revision": 1,
+    "batch_group": "g08",
+    "market": "m1",
+    "shipped": 81,
+    "features": {
+     "distance": 14.36,
+     "weight": 2.64
+    },
+    "feature_known": 81
+   },
+   {
+    "id": "s024",
+    "revision": 1,
+    "batch_group": "g09",
+    "market": "m3",
+    "shipped": 19,
+    "features": {
+     "distance": 3.44,
+     "weight": 3.91
+    },
+    "feature_known": 19
+   },
+   {
+    "id": "s025",
+    "revision": 1,
+    "batch_group": "g09",
+    "market": "m3",
+    "shipped": 21,
+    "features": {
+     "distance": 7.95,
+     "weight": 3.27
+    },
+    "feature_known": 21
+   },
+   {
+    "id": "s026",
+    "revision": 1,
+    "batch_group": "g09",
+    "market": "m3",
+    "shipped": 23,
+    "features": {
+     "distance": 15.32,
+     "weight": 1.68
+    },
+    "feature_known": 23
+   },
+   {
+    "id": "s027",
+    "revision": 1,
+    "batch_group": "g10",
+    "market": "m1",
+    "shipped": 79,
+    "features": {
+     "distance": 16.53,
+     "weight": 5.09
+    },
+    "feature_known": 79
+   },
+   {
+    "id": "s028",
+    "revision": 1,
+    "batch_group": "g10",
+    "market": "m1",
+    "shipped": 81,
+    "features": {
+     "distance": 4.54,
+     "weight": 4.14
+    },
+    "feature_known": 81
+   },
+   {
+    "id": "s029",
+    "revision": 1,
+    "batch_group": "g10",
+    "market": "m1",
+    "shipped": 83,
+    "features": {
+     "distance": 16.12,
+     "weight": 4.02
+    },
+    "feature_known": 83
+   },
+   {
+    "id": "s030",
+    "revision": 1,
+    "batch_group": "g11",
+    "market": "m3",
+    "shipped": 27,
+    "features": {
+     "distance": 2.62,
+     "weight": 5.81
+    },
+    "feature_known": 27
+   },
+   {
+    "id": "s031",
+    "revision": 1,
+    "batch_group": "g11",
+    "market": "m3",
+    "shipped": 29,
+    "features": {
+     "distance": 6.11,
+     "weight": 5.12
+    },
+    "feature_known": 29
+   },
+   {
+    "id": "s032",
+    "revision": 1,
+    "batch_group": "g11",
+    "market": "m3",
+    "shipped": 31,
+    "features": {
+     "distance": 10.32,
+     "weight": 5.65
+    },
+    "feature_known": 31
+   },
+   {
+    "id": "s033",
+    "revision": 1,
+    "batch_group": "g12",
+    "market": "m1",
+    "shipped": 58,
+    "features": {
+     "distance": 9.67,
+     "weight": 4.27
+    },
+    "feature_known": 58
+   },
+   {
+    "id": "s034",
+    "revision": 1,
+    "batch_group": "g13",
+    "market": "m3",
+    "shipped": 71,
+    "features": {
+     "distance": 5.4,
+     "weight": 5.57
+    },
+    "feature_known": 71
+   },
+   {
+    "id": "s035",
+    "revision": 1,
+    "batch_group": "g13",
+    "market": "m3",
+    "shipped": 73,
+    "features": {
+     "distance": 6.31,
+     "weight": 3.23
+    },
+    "feature_known": 73
+   },
+   {
+    "id": "s036",
+    "revision": 1,
+    "batch_group": "g13",
+    "market": "m3",
+    "shipped": 75,
+    "features": {
+     "distance": 6.51,
+     "weight": 3.66
+    },
+    "feature_known": 75
+   },
+   {
+    "id": "s037",
+    "revision": 1,
+    "batch_group": "g14",
+    "market": "m1",
+    "shipped": 92,
+    "features": {
+     "distance": 4.21,
+     "weight": 3.25
+    },
+    "feature_known": 92
+   },
+   {
+    "id": "s038",
+    "revision": 1,
+    "batch_group": "g14",
+    "market": "m1",
+    "shipped": 94,
+    "features": {
+     "distance": 11.44,
+     "weight": 5.62
+    },
+    "feature_known": 94
+   },
+   {
+    "id": "s039",
+    "revision": 1,
+    "batch_group": "g14",
+    "market": "m1",
+    "shipped": 96,
+    "features": {
+     "distance": 13.22,
+     "weight": 5.81
+    },
+    "feature_known": 96
+   },
+   {
+    "id": "s040",
+    "revision": 1,
+    "batch_group": "g15",
+    "market": "m3",
+    "shipped": 123,
+    "features": {
+     "distance": 3.08,
+     "weight": 2.56
+    },
+    "feature_known": 123
+   },
+   {
+    "id": "s041",
+    "revision": 1,
+    "batch_group": "g15",
+    "market": "m3",
+    "shipped": 125,
+    "features": {
+     "distance": 3.2,
+     "weight": 3.73
+    },
+    "feature_known": 125
+   },
+   {
+    "id": "s042",
+    "revision": 1,
+    "batch_group": "g15",
+    "market": "m3",
+    "shipped": 127,
+    "features": {
+     "distance": 14.69,
+     "weight": 5.58
+    },
+    "feature_known": 127
+   },
+   {
+    "id": "s043",
+    "revision": 1,
+    "batch_group": "g16",
+    "market": "m1",
+    "shipped": 19,
+    "features": {
+     "distance": 15.94,
+     "weight": 3.09
+    },
+    "feature_known": 19
+   },
+   {
+    "id": "s044",
+    "revision": 1,
+    "batch_group": "g16",
+    "market": "m1",
+    "shipped": 21,
+    "features": {
+     "distance": 11.16,
+     "weight": 4.12
+    },
+    "feature_known": 21
+   },
+   {
+    "id": "s045",
+    "revision": 1,
+    "batch_group": "g16",
+    "market": "m1",
+    "shipped": 23,
+    "features": {
+     "distance": 11.74,
+     "weight": 1.4
+    },
+    "feature_known": 23
+   },
+   {
+    "id": "s046",
+    "revision": 1,
+    "batch_group": "g17",
+    "market": "m3",
+    "shipped": 106,
+    "features": {
+     "distance": 13.65,
+     "weight": 2.94
+    },
+    "feature_known": 106
+   },
+   {
+    "id": "s047",
+    "revision": 1,
+    "batch_group": "g17",
+    "market": "m3",
+    "shipped": 108,
+    "features": {
+     "distance": 9.05,
+     "weight": 5.19
+    },
+    "feature_known": 108
+   },
+   {
+    "id": "s048",
+    "revision": 1,
+    "batch_group": "g17",
+    "market": "m3",
+    "shipped": 110,
+    "features": {
+     "distance": 6.96,
+     "weight": 1.44
+    },
+    "feature_known": 110
+   },
+   {
+    "id": "s049",
+    "revision": 1,
+    "batch_group": "g18",
+    "market": "m1",
+    "shipped": 127,
+    "features": {
+     "distance": 14.48,
+     "weight": 4.3
+    },
+    "feature_known": 127
+   },
+   {
+    "id": "s050",
+    "revision": 1,
+    "batch_group": "g19",
+    "market": "m3",
+    "shipped": 94,
+    "features": {
+     "distance": 6.82,
+     "weight": 4.39
+    },
+    "feature_known": 94
+   },
+   {
+    "id": "s051",
+    "revision": 1,
+    "batch_group": "g19",
+    "market": "m3",
+    "shipped": 96,
+    "features": {
+     "distance": 14.06,
+     "weight": 2.71
+    },
+    "feature_known": 96
+   },
+   {
+    "id": "s052",
+    "revision": 1,
+    "batch_group": "g19",
+    "market": "m3",
+    "shipped": 98,
+    "features": {
+     "distance": 16.27,
+     "weight": 2.63
+    },
+    "feature_known": 98
+   },
+   {
+    "id": "s053",
+    "revision": 1,
+    "batch_group": "g20",
+    "market": "m1",
+    "shipped": 110,
+    "features": {
+     "distance": 14.86,
+     "weight": 4.77
+    },
+    "feature_known": 110
+   },
+   {
+    "id": "s054",
+    "revision": 1,
+    "batch_group": "g20",
+    "market": "m1",
+    "shipped": 112,
+    "features": {
+     "distance": 8.15,
+     "weight": 3.92
+    },
+    "feature_known": 112
+   },
+   {
+    "id": "s055",
+    "revision": 1,
+    "batch_group": "g20",
+    "market": "m1",
+    "shipped": 114,
+    "features": {
+     "distance": 4.15,
+     "weight": 2.75
+    },
+    "feature_known": 114
+   },
+   {
+    "id": "s056",
+    "revision": 1,
+    "batch_group": "g21",
+    "market": "m2",
+    "shipped": 16,
+    "features": {
+     "distance": 17.2,
+     "weight": 2.38
+    },
+    "feature_known": 16
+   },
+   {
+    "id": "s057",
+    "revision": 1,
+    "batch_group": "g21",
+    "market": "m2",
+    "shipped": 18,
+    "features": {
+     "distance": 9.54,
+     "weight": 5.63
+    },
+    "feature_known": 18
+   },
+   {
+    "id": "s058",
+    "revision": 1,
+    "batch_group": "g21",
+    "market": "m2",
+    "shipped": 20,
+    "features": {
+     "distance": 12.01,
+     "weight": 3.47
+    },
+    "feature_known": 20
+   },
+   {
+    "id": "s059",
+    "revision": 1,
+    "batch_group": "g22",
+    "market": "m1",
+    "shipped": 82,
+    "features": {
+     "distance": 3.19,
+     "weight": 1.16
+    },
+    "feature_known": 82
+   },
+   {
+    "id": "s060",
+    "revision": 1,
+    "batch_group": "g22",
+    "market": "m1",
+    "shipped": 84,
+    "features": {
+     "distance": 12.85,
+     "weight": 2.41
+    },
+    "feature_known": 84
+   },
+   {
+    "id": "s061",
+    "revision": 1,
+    "batch_group": "g22",
+    "market": "m1",
+    "shipped": 86,
+    "features": {
+     "distance": 12.26,
+     "weight": 3.03
+    },
+    "feature_known": 86
+   },
+   {
+    "id": "s062",
+    "revision": 1,
+    "batch_group": "g23",
+    "market": "m3",
+    "shipped": 60,
+    "features": {
+     "distance": 14.47,
+     "weight": 4.98
+    },
+    "feature_known": 60
+   },
+   {
+    "id": "s063",
+    "revision": 1,
+    "batch_group": "g23",
+    "market": "m3",
+    "shipped": 62,
+    "features": {
+     "distance": 9.14,
+     "weight": 4.15
+    },
+    "feature_known": 62
+   },
+   {
+    "id": "s064",
+    "revision": 1,
+    "batch_group": "g23",
+    "market": "m3",
+    "shipped": 64,
+    "features": {
+     "distance": 17.34,
+     "weight": 4.42
+    },
+    "feature_known": 64
+   },
+   {
+    "id": "s065",
+    "revision": 1,
+    "batch_group": "g24",
+    "market": "m1",
+    "shipped": 65,
+    "features": {
+     "distance": 4.86,
+     "weight": 1.05
+    },
+    "feature_known": 65
+   },
+   {
+    "id": "s066",
+    "revision": 1,
+    "batch_group": "g25",
+    "market": "m3",
+    "shipped": 45,
+    "features": {
+     "distance": 5.62,
+     "weight": 4.89
+    },
+    "feature_known": 45
+   },
+   {
+    "id": "s067",
+    "revision": 1,
+    "batch_group": "g25",
+    "market": "m3",
+    "shipped": 47,
+    "features": {
+     "distance": 8.3,
+     "weight": 4.96
+    },
+    "feature_known": 47
+   },
+   {
+    "id": "s068",
+    "revision": 1,
+    "batch_group": "g25",
+    "market": "m3",
+    "shipped": 49,
+    "features": {
+     "distance": 8.57,
+     "weight": 5.46
+    },
+    "feature_known": 49
+   },
+   {
+    "id": "s069",
+    "revision": 1,
+    "batch_group": "g26",
+    "market": "m1",
+    "shipped": 116,
+    "features": {
+     "distance": 5.15,
+     "weight": 5.44
+    },
+    "feature_known": 116
+   },
+   {
+    "id": "s070",
+    "revision": 1,
+    "batch_group": "g26",
+    "market": "m1",
+    "shipped": 118,
+    "features": {
+     "distance": 9.42,
+     "weight": 4.26
+    },
+    "feature_known": 118
+   },
+   {
+    "id": "s071",
+    "revision": 1,
+    "batch_group": "g26",
+    "market": "m1",
+    "shipped": 120,
+    "features": {
+     "distance": 5.41,
+     "weight": 5.5
+    },
+    "feature_known": 120
+   },
+   {
+    "id": "s072",
+    "revision": 1,
+    "batch_group": "g27",
+    "market": "m3",
+    "shipped": 82,
+    "features": {
+     "distance": 6.19,
+     "weight": 4.59
+    },
+    "feature_known": 82
+   },
+   {
+    "id": "s073",
+    "revision": 1,
+    "batch_group": "g27",
+    "market": "m3",
+    "shipped": 84,
+    "features": {
+     "distance": 2.59,
+     "weight": 2.71
+    },
+    "feature_known": 84
+   },
+   {
+    "id": "s074",
+    "revision": 1,
+    "batch_group": "g27",
+    "market": "m3",
+    "shipped": 86,
+    "features": {
+     "distance": 9.8,
+     "weight": 1.14
+    },
+    "feature_known": 86
+   },
+   {
+    "id": "s075",
+    "revision": 1,
+    "batch_group": "g28",
+    "market": "m1",
+    "shipped": 109,
+    "features": {
+     "distance": 14.8,
+     "weight": 1.86
+    },
+    "feature_known": 109
+   },
+   {
+    "id": "s076",
+    "revision": 1,
+    "batch_group": "g28",
+    "market": "m1",
+    "shipped": 111,
+    "features": {
+     "distance": 9.53,
+     "weight": 6.0
+    },
+    "feature_known": 111
+   },
+   {
+    "id": "s077",
+    "revision": 1,
+    "batch_group": "g28",
+    "market": "m1",
+    "shipped": 113,
+    "features": {
+     "distance": 17.13,
+     "weight": 3.46
+    },
+    "feature_known": 113
+   },
+   {
+    "id": "s078",
+    "revision": 1,
+    "batch_group": "g29",
+    "market": "m3",
+    "shipped": 56,
+    "features": {
+     "distance": 9.03,
+     "weight": 3.79
+    },
+    "feature_known": 56
+   },
+   {
+    "id": "s079",
+    "revision": 1,
+    "batch_group": "g29",
+    "market": "m3",
+    "shipped": 58,
+    "features": {
+     "distance": 10.36,
+     "weight": 5.22
+    },
+    "feature_known": 58
+   },
+   {
+    "id": "s080",
+    "revision": 1,
+    "batch_group": "g29",
+    "market": "m3",
+    "shipped": 60,
+    "features": {
+     "distance": 12.74,
+     "weight": 5.77
+    },
+    "feature_known": 60
+   },
+   {
+    "id": "s081",
+    "revision": 1,
+    "batch_group": "g30",
+    "market": "m1",
+    "shipped": 77,
+    "features": {
+     "distance": 15.61,
+     "weight": 5.84
+    },
+    "feature_known": 77
+   },
+   {
+    "id": "s082",
+    "revision": 1,
+    "batch_group": "g31",
+    "market": "m3",
+    "shipped": 51,
+    "features": {
+     "distance": 8.58,
+     "weight": 1.57
+    },
+    "feature_known": 51
+   },
+   {
+    "id": "s083",
+    "revision": 1,
+    "batch_group": "g31",
+    "market": "m3",
+    "shipped": 53,
+    "features": {
+     "distance": 2.44,
+     "weight": 5.85
+    },
+    "feature_known": 53
+   },
+   {
+    "id": "s084",
+    "revision": 1,
+    "batch_group": "g31",
+    "market": "m3",
+    "shipped": 55,
+    "features": {
+     "distance": 10.7,
+     "weight": 5.95
+    },
+    "feature_known": 55
+   },
+   {
+    "id": "s085",
+    "revision": 1,
+    "batch_group": "g32",
+    "market": "m1",
+    "shipped": 42,
+    "features": {
+     "distance": 3.05,
+     "weight": 3.69
+    },
+    "feature_known": 42
+   },
+   {
+    "id": "s086",
+    "revision": 1,
+    "batch_group": "g32",
+    "market": "m1",
+    "shipped": 44,
+    "features": {
+     "distance": 6.31,
+     "weight": 3.37
+    },
+    "feature_known": 44
+   },
+   {
+    "id": "s087",
+    "revision": 1,
+    "batch_group": "g32",
+    "market": "m1",
+    "shipped": 46,
+    "features": {
+     "distance": 16.41,
+     "weight": 5.68
+    },
+    "feature_known": 46
+   },
+   {
+    "id": "s088",
+    "revision": 1,
+    "batch_group": "g33",
+    "market": "m3",
+    "shipped": 27,
+    "features": {
+     "distance": 5.06,
+     "weight": 4.09
+    },
+    "feature_known": 27
+   },
+   {
+    "id": "s089",
+    "revision": 1,
+    "batch_group": "g33",
+    "market": "m3",
+    "shipped": 29,
+    "features": {
+     "distance": 13.23,
+     "weight": 5.89
+    },
+    "feature_known": 29
+   },
+   {
+    "id": "s090",
+    "revision": 1,
+    "batch_group": "g33",
+    "market": "m3",
+    "shipped": 31,
+    "features": {
+     "distance": 5.64,
+     "weight": 4.44
+    },
+    "feature_known": 31
+   },
+   {
+    "id": "s091",
+    "revision": 1,
+    "batch_group": "g34",
+    "market": "m1",
+    "shipped": 62,
+    "features": {
+     "distance": 11.92,
+     "weight": 1.52
+    },
+    "feature_known": 62
+   },
+   {
+    "id": "s092",
+    "revision": 1,
+    "batch_group": "g34",
+    "market": "m1",
+    "shipped": 64,
+    "features": {
+     "distance": 15.63,
+     "weight": 4.12
+    },
+    "feature_known": 64
+   },
+   {
+    "id": "s093",
+    "revision": 1,
+    "batch_group": "g34",
+    "market": "m1",
+    "shipped": 66,
+    "features": {
+     "distance": 2.37,
+     "weight": 4.17
+    },
+    "feature_known": 66
+   },
+   {
+    "id": "s094",
+    "revision": 1,
+    "batch_group": "g35",
+    "market": "m2",
+    "shipped": 52,
+    "features": {
+     "distance": 15.82,
+     "weight": 3.67
+    },
+    "feature_known": 52
+   },
+   {
+    "id": "s095",
+    "revision": 1,
+    "batch_group": "g35",
+    "market": "m2",
+    "shipped": 54,
+    "features": {
+     "distance": 15.62,
+     "weight": 4.06
+    },
+    "feature_known": 54
+   },
+   {
+    "id": "s096",
+    "revision": 1,
+    "batch_group": "g35",
+    "market": "m2",
+    "shipped": 56,
+    "features": {
+     "distance": 16.64,
+     "weight": 4.14
+    },
+    "feature_known": 56
+   },
+   {
+    "id": "s097",
+    "revision": 1,
+    "batch_group": "g36",
+    "market": "m1",
+    "shipped": 80,
+    "features": {
+     "distance": 11.65,
+     "weight": 5.45
+    },
+    "feature_known": 80
+   },
+   {
+    "id": "s098",
+    "revision": 1,
+    "batch_group": "g37",
+    "market": "m3",
+    "shipped": 24,
+    "features": {
+     "distance": 4.14,
+     "weight": 2.2
+    },
+    "feature_known": 24
+   },
+   {
+    "id": "s099",
+    "revision": 1,
+    "batch_group": "g37",
+    "market": "m3",
+    "shipped": 26,
+    "features": {
+     "distance": 8.21,
+     "weight": 3.17
+    },
+    "feature_known": 26
+   },
+   {
+    "id": "s100",
+    "revision": 1,
+    "batch_group": "g37",
+    "market": "m3",
+    "shipped": 28,
+    "features": {
+     "distance": 5.21,
+     "weight": 4.14
+    },
+    "feature_known": 28
+   },
+   {
+    "id": "s101",
+    "revision": 1,
+    "batch_group": "g38",
+    "market": "m1",
+    "shipped": 51,
+    "features": {
+     "distance": 11.12,
+     "weight": 2.79
+    },
+    "feature_known": 51
+   },
+   {
+    "id": "s102",
+    "revision": 1,
+    "batch_group": "g38",
+    "market": "m1",
+    "shipped": 53,
+    "features": {
+     "distance": 3.85,
+     "weight": 3.53
+    },
+    "feature_known": 53
+   },
+   {
+    "id": "s103",
+    "revision": 1,
+    "batch_group": "g38",
+    "market": "m1",
+    "shipped": 55,
+    "features": {
+     "distance": 14.85,
+     "weight": 3.41
+    },
+    "feature_known": 55
+   },
+   {
+    "id": "s104",
+    "revision": 1,
+    "batch_group": "g39",
+    "market": "m3",
+    "shipped": 37,
+    "features": {
+     "distance": 5.03,
+     "weight": 1.57
+    },
+    "feature_known": 37
+   },
+   {
+    "id": "s105",
+    "revision": 1,
+    "batch_group": "g39",
+    "market": "m3",
+    "shipped": 39,
+    "features": {
+     "distance": 17.84,
+     "weight": 5.63
+    },
+    "feature_known": 39
+   },
+   {
+    "id": "s106",
+    "revision": 1,
+    "batch_group": "g39",
+    "market": "m3",
+    "shipped": 41,
+    "features": {
+     "distance": 4.15,
+     "weight": 4.4
+    },
+    "feature_known": 41
+   },
+   {
+    "id": "s107",
+    "revision": 1,
+    "batch_group": "g40",
+    "market": "m1",
+    "shipped": 83,
+    "features": {
+     "distance": 8.25,
+     "weight": 3.13
+    },
+    "feature_known": 83
+   },
+   {
+    "id": "s108",
+    "revision": 1,
+    "batch_group": "g40",
+    "market": "m1",
+    "shipped": 85,
+    "features": {
+     "distance": 11.61,
+     "weight": 1.07
+    },
+    "feature_known": 85
+   },
+   {
+    "id": "s109",
+    "revision": 1,
+    "batch_group": "g40",
+    "market": "m1",
+    "shipped": 87,
+    "features": {
+     "distance": 4.9,
+     "weight": 3.27
+    },
+    "feature_known": 87
+   },
+   {
+    "id": "s110",
+    "revision": 1,
+    "batch_group": "g41",
+    "market": "m3",
+    "shipped": 49,
+    "features": {
+     "distance": 11.68,
+     "weight": 1.47
+    },
+    "feature_known": 49
+   },
+   {
+    "id": "s111",
+    "revision": 1,
+    "batch_group": "g41",
+    "market": "m3",
+    "shipped": 51,
+    "features": {
+     "distance": 16.29,
+     "weight": 5.01
+    },
+    "feature_known": 51
+   },
+   {
+    "id": "s112",
+    "revision": 1,
+    "batch_group": "g41",
+    "market": "m3",
+    "shipped": 53,
+    "features": {
+     "distance": 11.11,
+     "weight": 1.95
+    },
+    "feature_known": 53
+   },
+   {
+    "id": "s113",
+    "revision": 1,
+    "batch_group": "g42",
+    "market": "m1",
+    "shipped": 66,
+    "features": {
+     "distance": 6.47,
+     "weight": 1.58
+    },
+    "feature_known": 66
+   },
+   {
+    "id": "s114",
+    "revision": 1,
+    "batch_group": "g43",
+    "market": "m3",
+    "shipped": 103,
+    "features": {
+     "distance": 4.13,
+     "weight": 2.65
+    },
+    "feature_known": 103
+   },
+   {
+    "id": "s115",
+    "revision": 1,
+    "batch_group": "g43",
+    "market": "m3",
+    "shipped": 105,
+    "features": {
+     "distance": 14.28,
+     "weight": 4.83
+    },
+    "feature_known": 105
+   },
+   {
+    "id": "s116",
+    "revision": 1,
+    "batch_group": "g43",
+    "market": "m3",
+    "shipped": 107,
+    "features": {
+     "distance": 3.13,
+     "weight": 2.71
+    },
+    "feature_known": 107
+   },
+   {
+    "id": "s117",
+    "revision": 1,
+    "batch_group": "g44",
+    "market": "m1",
+    "shipped": 91,
+    "features": {
+     "distance": 17.85,
+     "weight": 5.51
+    },
+    "feature_known": 91
+   },
+   {
+    "id": "s118",
+    "revision": 1,
+    "batch_group": "g44",
+    "market": "m1",
+    "shipped": 93,
+    "features": {
+     "distance": 17.11,
+     "weight": 4.33
+    },
+    "feature_known": 93
+   },
+   {
+    "id": "s119",
+    "revision": 1,
+    "batch_group": "g44",
+    "market": "m1",
+    "shipped": 95,
+    "features": {
+     "distance": 11.11,
+     "weight": 3.67
+    },
+    "feature_known": 95
+   },
+   {
+    "id": "s120",
+    "revision": 1,
+    "batch_group": "g45",
+    "market": "m3",
+    "shipped": 54,
+    "features": {
+     "distance": 13.22,
+     "weight": 4.81
+    },
+    "feature_known": 54
+   },
+   {
+    "id": "s121",
+    "revision": 1,
+    "batch_group": "g45",
+    "market": "m3",
+    "shipped": 56,
+    "features": {
+     "distance": 3.84,
+     "weight": 1.54
+    },
+    "feature_known": 56
+   },
+   {
+    "id": "s122",
+    "revision": 1,
+    "batch_group": "g45",
+    "market": "m3",
+    "shipped": 58,
+    "features": {
+     "distance": 8.42,
+     "weight": 1.25
+    },
+    "feature_known": 58
+   },
+   {
+    "id": "s123",
+    "revision": 1,
+    "batch_group": "g46",
+    "market": "m1",
+    "shipped": 2,
+    "features": {
+     "distance": 3.58,
+     "weight": 2.25
+    },
+    "feature_known": 2
+   },
+   {
+    "id": "s124",
+    "revision": 1,
+    "batch_group": "g46",
+    "market": "m1",
+    "shipped": 4,
+    "features": {
+     "distance": 17.47,
+     "weight": 3.84
+    },
+    "feature_known": 4
+   },
+   {
+    "id": "s125",
+    "revision": 1,
+    "batch_group": "g46",
+    "market": "m1",
+    "shipped": 6,
+    "features": {
+     "distance": 14.95,
+     "weight": 1.38
+    },
+    "feature_known": 6
+   },
+   {
+    "id": "s126",
+    "revision": 1,
+    "batch_group": "g47",
+    "market": "m3",
+    "shipped": 98,
+    "features": {
+     "distance": 16.88,
+     "weight": 1.8
+    },
+    "feature_known": 98
+   },
+   {
+    "id": "s127",
+    "revision": 1,
+    "batch_group": "g47",
+    "market": "m3",
+    "shipped": 100,
+    "features": {
+     "distance": 15.69,
+     "weight": 3.71
+    },
+    "feature_known": 100
+   },
+   {
+    "id": "s128",
+    "revision": 1,
+    "batch_group": "g47",
+    "market": "m3",
+    "shipped": 102,
+    "features": {
+     "distance": 17.12,
+     "weight": 3.1
+    },
+    "feature_known": 102
+   },
+   {
+    "id": "s129",
+    "revision": 1,
+    "batch_group": "g48",
+    "market": "m1",
+    "shipped": 93,
+    "features": {
+     "distance": 10.49,
+     "weight": 3.42
+    },
+    "feature_known": 93
+   },
+   {
+    "id": "s130",
+    "revision": 1,
+    "batch_group": "g49",
+    "market": "m2",
+    "shipped": 75,
+    "features": {
+     "distance": 2.43,
+     "weight": 4.86
+    },
+    "feature_known": 75
+   },
+   {
+    "id": "s131",
+    "revision": 1,
+    "batch_group": "g49",
+    "market": "m2",
+    "shipped": 77,
+    "features": {
+     "distance": 8.54,
+     "weight": 4.42
+    },
+    "feature_known": 77
+   },
+   {
+    "id": "s132",
+    "revision": 1,
+    "batch_group": "g49",
+    "market": "m2",
+    "shipped": 79,
+    "features": {
+     "distance": 13.97,
+     "weight": 1.25
+    },
+    "feature_known": 79
+   },
+   {
+    "id": "s133",
+    "revision": 1,
+    "batch_group": "g50",
+    "market": "m1",
+    "shipped": 18,
+    "features": {
+     "distance": 14.76,
+     "weight": 2.12
+    },
+    "feature_known": 18
+   },
+   {
+    "id": "s134",
+    "revision": 1,
+    "batch_group": "g50",
+    "market": "m1",
+    "shipped": 20,
+    "features": {
+     "distance": 17.57,
+     "weight": 2.22
+    },
+    "feature_known": 20
+   },
+   {
+    "id": "s135",
+    "revision": 1,
+    "batch_group": "g50",
+    "market": "m1",
+    "shipped": 22,
+    "features": {
+     "distance": 4.31,
+     "weight": 5.8
+    },
+    "feature_known": 22
+   },
+   {
+    "id": "s136",
+    "revision": 1,
+    "batch_group": "g51",
+    "market": "m3",
+    "shipped": 12,
+    "features": {
+     "distance": 11.99,
+     "weight": 3.28
+    },
+    "feature_known": 12
+   },
+   {
+    "id": "s137",
+    "revision": 1,
+    "batch_group": "g51",
+    "market": "m3",
+    "shipped": 14,
+    "features": {
+     "distance": 7.71,
+     "weight": 1.77
+    },
+    "feature_known": 14
+   },
+   {
+    "id": "s138",
+    "revision": 1,
+    "batch_group": "g51",
+    "market": "m3",
+    "shipped": 16,
+    "features": {
+     "distance": 12.69,
+     "weight": 3.28
+    },
+    "feature_known": 16
+   },
+   {
+    "id": "s139",
+    "revision": 1,
+    "batch_group": "g52",
+    "market": "m1",
+    "shipped": 93,
+    "features": {
+     "distance": 14.45,
+     "weight": 3.65
+    },
+    "feature_known": 93
+   },
+   {
+    "id": "s140",
+    "revision": 1,
+    "batch_group": "g52",
+    "market": "m1",
+    "shipped": 95,
+    "features": {
+     "distance": 13.75,
+     "weight": 2.19
+    },
+    "feature_known": 95
+   },
+   {
+    "id": "s141",
+    "revision": 1,
+    "batch_group": "g52",
+    "market": "m1",
+    "shipped": 97,
+    "features": {
+     "distance": 14.55,
+     "weight": 4.12
+    },
+    "feature_known": 97
+   },
+   {
+    "id": "s142",
+    "revision": 1,
+    "batch_group": "g53",
+    "market": "m3",
+    "shipped": 48,
+    "features": {
+     "distance": 12.13,
+     "weight": 4.77
+    },
+    "feature_known": 48
+   },
+   {
+    "id": "s143",
+    "revision": 1,
+    "batch_group": "g53",
+    "market": "m3",
+    "shipped": 50,
+    "features": {
+     "distance": 10.03,
+     "weight": 4.26
+    },
+    "feature_known": 50
+   },
+   {
+    "id": "s144",
+    "revision": 1,
+    "batch_group": "g53",
+    "market": "m3",
+    "shipped": 52,
+    "features": {
+     "distance": 12.05,
+     "weight": 1.05
+    },
+    "feature_known": 52
+   },
+   {
+    "id": "s145",
+    "revision": 1,
+    "batch_group": "g54",
+    "market": "m1",
+    "shipped": 9,
+    "features": {
+     "distance": 3.64,
+     "weight": 3.71
+    },
+    "feature_known": 9
+   },
+   {
+    "id": "s146",
+    "revision": 1,
+    "batch_group": "g55",
+    "market": "m3",
+    "shipped": 41,
+    "features": {
+     "distance": 10.81,
+     "weight": 4.16
+    },
+    "feature_known": 41
+   },
+   {
+    "id": "s147",
+    "revision": 1,
+    "batch_group": "g55",
+    "market": "m3",
+    "shipped": 43,
+    "features": {
+     "distance": 7.67,
+     "weight": 2.69
+    },
+    "feature_known": 43
+   },
+   {
+    "id": "s148",
+    "revision": 1,
+    "batch_group": "g55",
+    "market": "m3",
+    "shipped": 45,
+    "features": {
+     "distance": 15.42,
+     "weight": 1.37
+    },
+    "feature_known": 45
+   },
+   {
+    "id": "s149",
+    "revision": 1,
+    "batch_group": "g56",
+    "market": "m1",
+    "shipped": 113,
+    "features": {
+     "distance": 8.79,
+     "weight": 2.29
+    },
+    "feature_known": 113
+   },
+   {
+    "id": "s150",
+    "revision": 1,
+    "batch_group": "g56",
+    "market": "m1",
+    "shipped": 115,
+    "features": {
+     "distance": 4.46,
+     "weight": 5.18
+    },
+    "feature_known": 115
+   },
+   {
+    "id": "s151",
+    "revision": 1,
+    "batch_group": "g56",
+    "market": "m1",
+    "shipped": 117,
+    "features": {
+     "distance": 10.78,
+     "weight": 4.73
+    },
+    "feature_known": 117
+   },
+   {
+    "id": "s152",
+    "revision": 1,
+    "batch_group": "g57",
+    "market": "m3",
+    "shipped": 94,
+    "features": {
+     "distance": 11.29,
+     "weight": 3.31
+    },
+    "feature_known": 94
+   },
+   {
+    "id": "s153",
+    "revision": 1,
+    "batch_group": "g57",
+    "market": "m3",
+    "shipped": 96,
+    "features": {
+     "distance": 8.91,
+     "weight": 3.84
+    },
+    "feature_known": 96
+   },
+   {
+    "id": "s154",
+    "revision": 1,
+    "batch_group": "g57",
+    "market": "m3",
+    "shipped": 98,
+    "features": {
+     "distance": 6.78,
+     "weight": 4.88
+    },
+    "feature_known": 98
+   },
+   {
+    "id": "s155",
+    "revision": 1,
+    "batch_group": "g58",
+    "market": "m1",
+    "shipped": 20,
+    "features": {
+     "distance": 13.12,
+     "weight": 3.47
+    },
+    "feature_known": 22
+   },
+   {
+    "id": "s156",
+    "revision": 1,
+    "batch_group": "g58",
+    "market": "m1",
+    "shipped": 22,
+    "features": {
+     "distance": 6.53,
+     "weight": 1.71
+    },
+    "feature_known": 24
+   },
+   {
+    "id": "s157",
+    "revision": 1,
+    "batch_group": "g58",
+    "market": "m1",
+    "shipped": 24,
+    "features": {
+     "distance": 7.86,
+     "weight": 1.59
+    },
+    "feature_known": 26
+   },
+   {
+    "id": "s158",
+    "revision": 1,
+    "batch_group": "g59",
+    "market": "m3",
+    "shipped": 112,
+    "features": {
+     "distance": 10.48,
+     "weight": 5.96
+    },
+    "feature_known": 112
+   },
+   {
+    "id": "s159",
+    "revision": 1,
+    "batch_group": "g59",
+    "market": "m3",
+    "shipped": 114,
+    "features": {
+     "distance": 8.39,
+     "weight": 5.67
+    },
+    "feature_known": 114
+   },
+   {
+    "id": "s160",
+    "revision": 1,
+    "batch_group": "g59",
+    "market": "m3",
+    "shipped": 116,
+    "features": {
+     "distance": 3.35,
+     "weight": 5.14
+    },
+    "feature_known": 116
+   },
+   {
+    "id": "s161",
+    "revision": 1,
+    "batch_group": "g60",
+    "market": "m1",
+    "shipped": 148,
+    "features": {
+     "distance": 5.0,
+     "weight": 2.0
+    },
+    "feature_known": 148
+   },
+   {
+    "id": "s162",
+    "revision": 1,
+    "batch_group": "g61",
+    "market": "m1",
+    "shipped": 149,
+    "features": {
+     "distance": 5.0,
+     "weight": 2.0
+    },
+    "feature_known": 149
+   },
+   {
+    "id": "s163",
+    "revision": 1,
+    "batch_group": "g62",
+    "market": "m1",
+    "shipped": 150,
+    "features": {
+     "distance": 5.0,
+     "weight": 2.0
+    },
+    "feature_known": 150
+   },
+   {
+    "id": "s164",
+    "revision": 1,
+    "batch_group": "g63",
+    "market": "m1",
+    "shipped": 151,
+    "features": {
+     "distance": 5.0,
+     "weight": 2.0
+    },
+    "feature_known": 151
+   },
+   {
+    "id": "s165",
+    "revision": 1,
+    "batch_group": "g64",
+    "market": "m1",
+    "shipped": 152,
+    "features": {
+     "distance": 5.0,
+     "weight": 2.0
+    },
+    "feature_known": 152
+   },
+   {
+    "id": "s166",
+    "revision": 1,
+    "batch_group": "g65",
+    "market": "m1",
+    "shipped": 153,
+    "features": {
+     "distance": 5.0,
+     "weight": 2.0
+    },
+    "feature_known": 153
+   }
+  ],
+  "completions": [
+   {
+    "id": "c001",
+    "revision": 1,
+    "shipment": "s001",
+    "completed": 127,
+    "known": 130
+   },
+   {
+    "id": "c002",
+    "revision": 1,
+    "shipment": "s002",
+    "completed": 140,
+    "known": 143
+   },
+   {
+    "id": "c003",
+    "revision": 1,
+    "shipment": "s003",
+    "completed": 139,
+    "known": 141
+   },
+   {
+    "id": "c004",
+    "revision": 1,
+    "shipment": "s004",
+    "completed": 141,
+    "known": 141
+   },
+   {
+    "id": "c005",
+    "revision": 1,
+    "shipment": "s005",
+    "completed": 112,
+    "known": 113
+   },
+   {
+    "id": "c006",
+    "revision": 1,
+    "shipment": "s006",
+    "completed": 110,
+    "known": 110
+   },
+   {
+    "id": "c007",
+    "revision": 1,
+    "shipment": "s007",
+    "completed": 108,
+    "known": 111
+   },
+   {
+    "id": "c008",
+    "revision": 1,
+    "shipment": "s008",
+    "completed": 91,
+    "known": 93
+   },
+   {
+    "id": "c009",
+    "revision": 1,
+    "shipment": "s009",
+    "completed": 93,
+    "known": 95
+   },
+   {
+    "id": "c010",
+    "revision": 1,
+    "shipment": "s010",
+    "completed": 96,
+    "known": 96
+   },
+   {
+    "id": "c011",
+    "revision": 1,
+    "shipment": "s011",
+    "completed": 70,
+    "known": 70
+   },
+   {
+    "id": "c012",
+    "revision": 1,
+    "shipment": "s012",
+    "completed": 72,
+    "known": 74
+   },
+   {
+    "id": "c013",
+    "revision": 1,
+    "shipment": "s013",
+    "completed": 78,
+    "known": 78
+   },
+   {
+    "id": "c014",
+    "revision": 1,
+    "shipment": "s014",
+    "completed": 60,
+    "known": 63
+   },
+   {
+    "id": "c015",
+    "revision": 1,
+    "shipment": "s015",
+    "completed": 62,
+    "known": 64
+   },
+   {
+    "id": "c016",
+    "revision": 1,
+    "shipment": "s016",
+    "completed": 62,
+    "known": 65
+   },
+   {
+    "id": "c017",
+    "revision": 1,
+    "shipment": "s017",
+    "completed": 33,
+    "known": 36
+   },
+   {
+    "id": "c018",
+    "revision": 1,
+    "shipment": "s018",
+    "completed": 129,
+    "known": 130
+   },
+   {
+    "id": "c019",
+    "revision": 1,
+    "shipment": "s019",
+    "completed": 136,
+    "known": 139
+   },
+   {
+    "id": "c020",
+    "revision": 1,
+    "shipment": "s020",
+    "completed": 132,
+    "known": 134
+   },
+   {
+    "id": "c021",
+    "revision": 1,
+    "shipment": "s021",
+    "completed": 85,
+    "known": 85
+   },
+   {
+    "id": "c022",
+    "revision": 1,
+    "shipment": "s022",
+    "completed": 83,
+    "known": 83
+   },
+   {
+    "id": "c023",
+    "revision": 1,
+    "shipment": "s023",
+    "completed": 89,
+    "known": 89
+   },
+   {
+    "id": "c024",
+    "revision": 1,
+    "shipment": "s024",
+    "completed": 23,
+    "known": 25
+   },
+   {
+    "id": "c025",
+    "revision": 1,
+    "shipment": "s025",
+    "completed": 30,
+    "known": 33
+   },
+   {
+    "id": "c026",
+    "revision": 1,
+    "shipment": "s026",
+    "completed": 31,
+    "known": 32
+   },
+   {
+    "id": "c027",
+    "revision": 1,
+    "shipment": "s027",
+    "completed": 88,
+    "known": 89
+   },
+   {
+    "id": "c028",
+    "revision": 1,
+    "shipment": "s028",
+    "completed": 87,
+    "known": 90
+   },
+   {
+    "id": "c029",
+    "revision": 1,
+    "shipment": "s029",
+    "completed": 92,
+    "known": 92
+   },
+   {
+    "id": "c030",
+    "revision": 1,
+    "shipment": "s030",
+    "completed": 31,
+    "known": 34
+   },
+   {
+    "id": "c031",
+    "revision": 1,
+    "shipment": "s031",
+    "completed": 36,
+    "known": 38
+   },
+   {
+    "id": "c032",
+    "revision": 1,
+    "shipment": "s032",
+    "completed": 42,
+    "known": 43
+   },
+   {
+    "id": "c033",
+    "revision": 1,
+    "shipment": "s033",
+    "completed": 66,
+    "known": 66
+   },
+   {
+    "id": "c034",
+    "revision": 1,
+    "shipment": "s034",
+    "completed": 79,
+    "known": 79
+   },
+   {
+    "id": "c035",
+    "revision": 1,
+    "shipment": "s035",
+    "completed": 77,
+    "known": 78
+   },
+   {
+    "id": "c036",
+    "revision": 1,
+    "shipment": "s036",
+    "completed": 84,
+    "known": 84
+   },
+   {
+    "id": "c037",
+    "revision": 1,
+    "shipment": "s037",
+    "completed": 96,
+    "known": 97
+   },
+   {
+    "id": "c038",
+    "revision": 1,
+    "shipment": "s038",
+    "completed": 103,
+    "known": 105
+   },
+   {
+    "id": "c039",
+    "revision": 1,
+    "shipment": "s039",
+    "completed": 103,
+    "known": 103
+   },
+   {
+    "id": "c040",
+    "revision": 1,
+    "shipment": "s040",
+    "completed": 126,
+    "known": 126
+   },
+   {
+    "id": "c041",
+    "revision": 1,
+    "shipment": "s041",
+    "completed": 131,
+    "known": 132
+   },
+   {
+    "id": "c042",
+    "revision": 1,
+    "shipment": "s042",
+    "completed": 136,
+    "known": 139
+   },
+   {
+    "id": "c043",
+    "revision": 1,
+    "shipment": "s043",
+    "completed": 30,
+    "known": 33
+   },
+   {
+    "id": "c044",
+    "revision": 1,
+    "shipment": "s044",
+    "completed": 28,
+    "known": 28
+   },
+   {
+    "id": "c045",
+    "revision": 1,
+    "shipment": "s045",
+    "completed": 31,
+    "known": 33
+   },
+   {
+    "id": "c046",
+    "revision": 1,
+    "shipment": "s046",
+    "completed": 116,
+    "known": 119
+   },
+   {
+    "id": "c047",
+    "revision": 1,
+    "shipment": "s047",
+    "completed": 114,
+    "known": 114
+   },
+   {
+    "id": "c048",
+    "revision": 1,
+    "shipment": "s048",
+    "completed": 113,
+    "known": 113
+   },
+   {
+    "id": "c049",
+    "revision": 1,
+    "shipment": "s049",
+    "completed": 136,
+    "known": 136
+   },
+   {
+    "id": "c050",
+    "revision": 1,
+    "shipment": "s050",
+    "completed": 99,
+    "known": 100
+   },
+   {
+    "id": "c051",
+    "revision": 1,
+    "shipment": "s051",
+    "completed": 107,
+    "known": 110
+   },
+   {
+    "id": "c052",
+    "revision": 1,
+    "shipment": "s052",
+    "completed": 108,
+    "known": 109
+   },
+   {
+    "id": "c053",
+    "revision": 1,
+    "shipment": "s053",
+    "completed": 118,
+    "known": 119
+   },
+   {
+    "id": "c054",
+    "revision": 1,
+    "shipment": "s054",
+    "completed": 118,
+    "known": 119
+   },
+   {
+    "id": "c055",
+    "revision": 1,
+    "shipment": "s055",
+    "completed": 121,
+    "known": 121
+   },
+   {
+    "id": "c056",
+    "revision": 1,
+    "shipment": "s056",
+    "completed": 24,
+    "known": 27
+   },
+   {
+    "id": "c057",
+    "revision": 1,
+    "shipment": "s057",
+    "completed": 28,
+    "known": 31
+   },
+   {
+    "id": "c058",
+    "revision": 1,
+    "shipment": "s058",
+    "completed": 27,
+    "known": 30
+   },
+   {
+    "id": "c059",
+    "revision": 1,
+    "shipment": "s059",
+    "completed": 88,
+    "known": 88
+   },
+   {
+    "id": "c060",
+    "revision": 1,
+    "shipment": "s060",
+    "completed": 91,
+    "known": 91
+   },
+   {
+    "id": "c061",
+    "revision": 1,
+    "shipment": "s061",
+    "completed": 92,
+    "known": 94
+   },
+   {
+    "id": "c062",
+    "revision": 1,
+    "shipment": "s062",
+    "completed": 72,
+    "known": 72
+   },
+   {
+    "id": "c063",
+    "revision": 1,
+    "shipment": "s063",
+    "completed": 70,
+    "known": 72
+   },
+   {
+    "id": "c064",
+    "revision": 1,
+    "shipment": "s064",
+    "completed": 73,
+    "known": 76
+   },
+   {
+    "id": "c065",
+    "revision": 1,
+    "shipment": "s065",
+    "completed": 69,
+    "known": 69
+   },
+   {
+    "id": "c066",
+    "revision": 1,
+    "shipment": "s066",
+    "completed": 52,
+    "known": 53
+   },
+   {
+    "id": "c067",
+    "revision": 1,
+    "shipment": "s067",
+    "completed": 56,
+    "known": 56
+   },
+   {
+    "id": "c068",
+    "revision": 1,
+    "shipment": "s068",
+    "completed": 56,
+    "known": 59
+   },
+   {
+    "id": "c069",
+    "revision": 1,
+    "shipment": "s069",
+    "completed": 120,
+    "known": 122
+   },
+   {
+    "id": "c070",
+    "revision": 1,
+    "shipment": "s070",
+    "completed": 124,
+    "known": 124
+   },
+   {
+    "id": "c071",
+    "revision": 1,
+    "shipment": "s071",
+    "completed": 129,
+    "known": 131
+   },
+   {
+    "id": "c072",
+    "revision": 1,
+    "shipment": "s072",
+    "completed": 86,
+    "known": 86
+   },
+   {
+    "id": "c073",
+    "revision": 1,
+    "shipment": "s073",
+    "completed": 88,
+    "known": 90
+   },
+   {
+    "id": "c074",
+    "revision": 1,
+    "shipment": "s074",
+    "completed": 94,
+    "known": 94
+   },
+   {
+    "id": "c075",
+    "revision": 1,
+    "shipment": "s075",
+    "completed": 117,
+    "known": 118
+   },
+   {
+    "id": "c076",
+    "revision": 1,
+    "shipment": "s076",
+    "completed": 121,
+    "known": 124
+   },
+   {
+    "id": "c077",
+    "revision": 1,
+    "shipment": "s077",
+    "completed": 125,
+    "known": 125
+   },
+   {
+    "id": "c078",
+    "revision": 1,
+    "shipment": "s078",
+    "completed": 65,
+    "known": 66
+   },
+   {
+    "id": "c079",
+    "revision": 1,
+    "shipment": "s079",
+    "completed": 67,
+    "known": 69
+   },
+   {
+    "id": "c080",
+    "revision": 1,
+    "shipment": "s080",
+    "completed": 71,
+    "known": 72
+   },
+   {
+    "id": "c081",
+    "revision": 1,
+    "shipment": "s081",
+    "completed": 87,
+    "known": 90
+   },
+   {
+    "id": "c082",
+    "revision": 1,
+    "shipment": "s082",
+    "completed": 55,
+    "known": 58
+   },
+   {
+    "id": "c083",
+    "revision": 1,
+    "shipment": "s083",
+    "completed": 59,
+    "known": 62
+   },
+   {
+    "id": "c084",
+    "revision": 1,
+    "shipment": "s084",
+    "completed": 62,
+    "known": 62
+   },
+   {
+    "id": "c085",
+    "revision": 1,
+    "shipment": "s085",
+    "completed": 47,
+    "known": 50
+   },
+   {
+    "id": "c086",
+    "revision": 1,
+    "shipment": "s086",
+    "completed": 48,
+    "known": 51
+   },
+   {
+    "id": "c087",
+    "revision": 1,
+    "shipment": "s087",
+    "completed": 59,
+    "known": 61
+   },
+   {
+    "id": "c088",
+    "revision": 1,
+    "shipment": "s088",
+    "completed": 35,
+    "known": 36
+   },
+   {
+    "id": "c089",
+    "revision": 1,
+    "shipment": "s089",
+    "completed": 36,
+    "known": 37
+   },
+   {
+    "id": "c090",
+    "revision": 1,
+    "shipment": "s090",
+    "completed": 36,
+    "known": 38
+   },
+   {
+    "id": "c091",
+    "revision": 1,
+    "shipment": "s091",
+    "completed": 70,
+    "known": 70
+   },
+   {
+    "id": "c092",
+    "revision": 1,
+    "shipment": "s092",
+    "completed": 75,
+    "known": 78
+   },
+   {
+    "id": "c093",
+    "revision": 1,
+    "shipment": "s093",
+    "completed": 73,
+    "known": 74
+   },
+   {
+    "id": "c094",
+    "revision": 1,
+    "shipment": "s094",
+    "completed": 60,
+    "known": 61
+   },
+   {
+    "id": "c095",
+    "revision": 1,
+    "shipment": "s095",
+    "completed": 65,
+    "known": 66
+   },
+   {
+    "id": "c096",
+    "revision": 1,
+    "shipment": "s096",
+    "completed": 65,
+    "known": 66
+   },
+   {
+    "id": "c097",
+    "revision": 1,
+    "shipment": "s097",
+    "completed": 87,
+    "known": 88
+   },
+   {
+    "id": "c098",
+    "revision": 1,
+    "shipment": "s098",
+    "completed": 30,
+    "known": 32
+   },
+   {
+    "id": "c099",
+    "revision": 1,
+    "shipment": "s099",
+    "completed": 35,
+    "known": 36
+   },
+   {
+    "id": "c100",
+    "revision": 1,
+    "shipment": "s100",
+    "completed": 35,
+    "known": 35
+   },
+   {
+    "id": "c101",
+    "revision": 1,
+    "shipment": "s101",
+    "completed": 60,
+    "known": 62
+   },
+   {
+    "id": "c102",
+    "revision": 1,
+    "shipment": "s102",
+    "completed": 60,
+    "known": 61
+   },
+   {
+    "id": "c103",
+    "revision": 1,
+    "shipment": "s103",
+    "completed": 62,
+    "known": 65
+   },
+   {
+    "id": "c104",
+    "revision": 1,
+    "shipment": "s104",
+    "completed": 40,
+    "known": 41
+   },
+   {
+    "id": "c105",
+    "revision": 1,
+    "shipment": "s105",
+    "completed": 48,
+    "known": 48
+   },
+   {
+    "id": "c106",
+    "revision": 1,
+    "shipment": "s106",
+    "completed": 45,
+    "known": 45
+   },
+   {
+    "id": "c107",
+    "revision": 1,
+    "shipment": "s107",
+    "completed": 89,
+    "known": 90
+   },
+   {
+    "id": "c108",
+    "revision": 1,
+    "shipment": "s108",
+    "completed": 93,
+    "known": 94
+   },
+   {
+    "id": "c109",
+    "revision": 1,
+    "shipment": "s109",
+    "completed": 94,
+    "known": 97
+   },
+   {
+    "id": "c110",
+    "revision": 1,
+    "shipment": "s110",
+    "completed": 58,
+    "known": 60
+   },
+   {
+    "id": "c111",
+    "revision": 1,
+    "shipment": "s111",
+    "completed": 62,
+    "known": 65
+   },
+   {
+    "id": "c112",
+    "revision": 1,
+    "shipment": "s112",
+    "completed": 61,
+    "known": 63
+   },
+   {
+    "id": "c113",
+    "revision": 1,
+    "shipment": "s113",
+    "completed": 73,
+    "known": 74
+   },
+   {
+    "id": "c114",
+    "revision": 1,
+    "shipment": "s114",
+    "completed": 108,
+    "known": 110
+   },
+   {
+    "id": "c115",
+    "revision": 1,
+    "shipment": "s115",
+    "completed": 114,
+    "known": 115
+   },
+   {
+    "id": "c116",
+    "revision": 1,
+    "shipment": "s116",
+    "completed": 112,
+    "known": 112
+   },
+   {
+    "id": "c117",
+    "revision": 1,
+    "shipment": "s117",
+    "completed": 100,
+    "known": 102
+   },
+   {
+    "id": "c118",
+    "revision": 1,
+    "shipment": "s118",
+    "completed": 102,
+    "known": 105
+   },
+   {
+    "id": "c119",
+    "revision": 1,
+    "shipment": "s119",
+    "completed": 102,
+    "known": 105
+   },
+   {
+    "id": "c120",
+    "revision": 1,
+    "shipment": "s120",
+    "completed": 65,
+    "known": 65
+   },
+   {
+    "id": "c121",
+    "revision": 1,
+    "shipment": "s121",
+    "completed": 59,
+    "known": 62
+   },
+   {
+    "id": "c122",
+    "revision": 1,
+    "shipment": "s122",
+    "completed": 62,
+    "known": 65
+   },
+   {
+    "id": "c123",
+    "revision": 1,
+    "shipment": "s123",
+    "completed": 9,
+    "known": 12
+   },
+   {
+    "id": "c124",
+    "revision": 1,
+    "shipment": "s124",
+    "completed": 17,
+    "known": 20
+   },
+   {
+    "id": "c125",
+    "revision": 1,
+    "shipment": "s125",
+    "completed": 15,
+    "known": 15
+   },
+   {
+    "id": "c126",
+    "revision": 1,
+    "shipment": "s126",
+    "completed": 107,
+    "known": 108
+   },
+   {
+    "id": "c127",
+    "revision": 1,
+    "shipment": "s127",
+    "completed": 110,
+    "known": 113
+   },
+   {
+    "id": "c128",
+    "revision": 1,
+    "shipment": "s128",
+    "completed": 112,
+    "known": 114
+   },
+   {
+    "id": "c129",
+    "revision": 1,
+    "shipment": "s129",
+    "completed": 99,
+    "known": 101
+   },
+   {
+    "id": "c130",
+    "revision": 1,
+    "shipment": "s130",
+    "completed": 81,
+    "known": 82
+   },
+   {
+    "id": "c131",
+    "revision": 1,
+    "shipment": "s131",
+    "completed": 82,
+    "known": 84
+   },
+   {
+    "id": "c132",
+    "revision": 1,
+    "shipment": "s132",
+    "completed": 89,
+    "known": 91
+   },
+   {
+    "id": "c133",
+    "revision": 1,
+    "shipment": "s133",
+    "completed": 28,
+    "known": 30
+   },
+   {
+    "id": "c134",
+    "revision": 1,
+    "shipment": "s134",
+    "completed": 30,
+    "known": 33
+   },
+   {
+    "id": "c135",
+    "revision": 1,
+    "shipment": "s135",
+    "completed": 27,
+    "known": 27
+   },
+   {
+    "id": "c136",
+    "revision": 1,
+    "shipment": "s136",
+    "completed": 19,
+    "known": 19
+   },
+   {
+    "id": "c137",
+    "revision": 1,
+    "shipment": "s137",
+    "completed": 19,
+    "known": 20
+   },
+   {
+    "id": "c138",
+    "revision": 1,
+    "shipment": "s138",
+    "completed": 23,
+    "known": 26
+   },
+   {
+    "id": "c139",
+    "revision": 1,
+    "shipment": "s139",
+    "completed": 105,
+    "known": 107
+   },
+   {
+    "id": "c140",
+    "revision": 1,
+    "shipment": "s140",
+    "completed": 101,
+    "known": 103
+   },
+   {
+    "id": "c141",
+    "revision": 1,
+    "shipment": "s141",
+    "completed": 106,
+    "known": 108
+   },
+   {
+    "id": "c142",
+    "revision": 1,
+    "shipment": "s142",
+    "completed": 55,
+    "known": 56
+   },
+   {
+    "id": "c143",
+    "revision": 1,
+    "shipment": "s143",
+    "completed": 56,
+    "known": 56
+   },
+   {
+    "id": "c144",
+    "revision": 1,
+    "shipment": "s144",
+    "completed": 58,
+    "known": 58
+   },
+   {
+    "id": "c145",
+    "revision": 1,
+    "shipment": "s145",
+    "completed": 12,
+    "known": 12
+   },
+   {
+    "id": "c146",
+    "revision": 1,
+    "shipment": "s146",
+    "completed": 48,
+    "known": 51
+   },
+   {
+    "id": "c147",
+    "revision": 1,
+    "shipment": "s147",
+    "completed": 49,
+    "known": 50
+   },
+   {
+    "id": "c148",
+    "revision": 1,
+    "shipment": "s148",
+    "completed": 52,
+    "known": 53
+   },
+   {
+    "id": "c149",
+    "revision": 1,
+    "shipment": "s149",
+    "completed": 121,
+    "known": 123
+   },
+   {
+    "id": "c150",
+    "revision": 1,
+    "shipment": "s150",
+    "completed": 122,
+    "known": 124
+   },
+   {
+    "id": "c151",
+    "revision": 1,
+    "shipment": "s151",
+    "completed": 127,
+    "known": 130
+   },
+   {
+    "id": "c152",
+    "revision": 1,
+    "shipment": "s152",
+    "completed": 101,
+    "known": 101
+   },
+   {
+    "id": "c153",
+    "revision": 1,
+    "shipment": "s153",
+    "completed": 105,
+    "known": 108
+   },
+   {
+    "id": "c154",
+    "revision": 1,
+    "shipment": "s154",
+    "completed": 103,
+    "known": 104
+   },
+   {
+    "id": "c155",
+    "revision": 1,
+    "shipment": "s155",
+    "completed": 30,
+    "known": 32
+   },
+   {
+    "id": "c156",
+    "revision": 1,
+    "shipment": "s156",
+    "completed": 27,
+    "known": 29
+   },
+   {
+    "id": "c157",
+    "revision": 1,
+    "shipment": "s157",
+    "completed": 31,
+    "known": 33
+   },
+   {
+    "id": "c158",
+    "revision": 1,
+    "shipment": "s158",
+    "completed": 120,
+    "known": 121
+   },
+   {
+    "id": "c159",
+    "revision": 1,
+    "shipment": "s159",
+    "completed": 124,
+    "known": 125
+   },
+   {
+    "id": "c160",
+    "revision": 1,
+    "shipment": "s160",
+    "completed": 119,
+    "known": 122
+   },
+   {
+    "id": "c161",
+    "revision": 1,
+    "shipment": "s161",
+    "completed": 150,
+    "known": 150
+   },
+   {
+    "id": "c162",
+    "revision": 1,
+    "shipment": "s163",
+    "completed": 152,
+    "known": 152
+   },
+   {
+    "id": "c163",
+    "revision": 1,
+    "shipment": "s165",
+    "completed": 154,
+    "known": 154
+   }
+  ]
+ }
+}

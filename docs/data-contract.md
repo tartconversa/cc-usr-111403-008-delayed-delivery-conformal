@@ -1,4 +1,4 @@
-# 资料与现有计算约定
+# 资料与计算约定
 
 ## 修订快照
 
@@ -14,6 +14,18 @@ shipments含batch_group、market、shipped、features、feature_known；completi
 
 各集合必要字段：{"shipments": ["batch_group", "market", "shipped", "features", "feature_known"], "completions": ["shipment", "completed", "known"]}。
 
+### 可选的到达时间
+
+目录只保留每个id的最高修订，不保留旧修订内容。为了让“预测之后才到达的修订”不能回写旧预测，新增分析可接受可选整数字段：
+
+* shipments：`recorded_at`，表示当前修订到达资料系统的时间，缺省等于`feature_known`；不得早于`feature_known`。
+* completions：`recorded_at`，缺省等于`known`；表示该完成记录到达时间。
+* 撤回记录没有业务字段，`recorded_at`必须显式给出，否则新增分析拒绝该资料。
+
+这些字段不改变既有`catalog.load`、`baseline.analyze`与`service.inspect`的语义；缺省时旧资料行为不变，但只有记录的`known`/`feature_known`到达时间可作为可见性依据。若某修订在预测时点之后到达却缺少`recorded_at`，新增分析只能按`feature_known`/`known`视为当时可见——企业若需要严格不可回写保证，应在资料中提供`recorded_at`。
+
 ## 当前能力
 
 app.baseline.analyze(snapshot)产生已有摘要，app.service.inspect负责绑定输入身份；新增分析可以增设独立入口，已有接口及上述数据语义保持兼容。
+
+按预测时点冻结的交付时长区间、批组共形校准、结算与覆盖回放的语义见 [区间与回放说明](forecast.md)。
